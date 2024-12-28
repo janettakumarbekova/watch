@@ -5,7 +5,6 @@ import React, { useEffect, useRef, useState } from "react";
 import logo from "../../public/images/logo.svg";
 import menu from "../../public/images/gg_menu-left.svg";
 import close from "../../public/images/x.svg";
-
 const epilogue = Epilogue({
 	subsets: ["latin"],
 	weight: ["400", "700"],
@@ -23,7 +22,7 @@ const Header = () => {
 	};
 
 	return (
-		<div className="bg-[#141414] w-full py-[20px]">
+		<div className="bg-[#141414e1] w-full py-[20px] fixed backdrop-blur-[40px]">
 			<div className="w-[90%] max-x[1440px] mx-auto flex justify-between">
 				<div className="flex justify-between w-full md:w-[450px] md:gap-[100px] items-center">
 					<div className="flex items-center">
