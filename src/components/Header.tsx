@@ -22,7 +22,7 @@ const Header = () => {
 	};
 
 	return (
-		<div className="bg-[#141414e1] w-full py-[20px] fixed backdrop-blur-[40px]">
+		<div className="bg-[#141414e1] w-full py-[20px] fixed backdrop-blur-[40px] z-50">
 			<div className="w-[90%] max-x[1440px] mx-auto flex justify-between">
 				<div className="flex justify-between w-full md:w-[450px] md:gap-[100px] items-center">
 					<div className="flex items-center">
@@ -64,7 +64,7 @@ const Header = () => {
 					</div>
 					<div className="md:hidden">
 						<aside
-							className={`flex flex-col items-center fixed top-[72px] right-0 w-[346px] h-full bg-[#1E2827] transform transition-transform duration-300 ease-in-out ${
+							className={`flex flex-col items-center fixed top-[72px] right-0 w-[346px] h-[100vh] bg-[#141414f1] backdrop-blur-[40px] transform transition-transform duration-300 ease-in-out ${
 								isSidebarOpen ? "translate-x-0" : "translate-x-full"
 							} z-[100]`}
 							style={{

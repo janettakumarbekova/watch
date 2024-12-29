@@ -39,8 +39,8 @@ const MainSection = () => {
 	const nextRef = useRef(null);
 
 	return (
-		<div className="bg-[#141414] py-[70px]">
-			<div className="w-[90%] max-w-[1440px] mx-auto">
+		<div className="bg-[#141414] py-[70px] ">
+			<div className="w-[90%] max-w-[1440px] mx-auto -z-20">
 				<div className="flex justify-between flex-wrap">
 					<h1
 						className={`${epilogue.className} text-[38px] lg:w-[70%] lg:text-[60px] font-semibold tracking-[-2px] text-white order-1 `}>
@@ -54,22 +54,21 @@ const MainSection = () => {
 						ones, we have a watch to suit every taste and occasion.
 					</p>
 					<div className="flex items-end lg:mb-[-15px] order-2 lg:order-3 mt-[60px] lg:mt-[0]">
-						<div className="w-[266px]  md:w-[436px]">
+						<div className="w-[266px]  md:w-[436px] z-10">
 							<Swiper
 								modules={[Navigation]}
 								navigation={{
 									prevEl: ".custom-prev",
 									nextEl: ".custom-next",
 								}}
-								pagination={{ clickable: true }}
 								slidesPerView={1}
 								onSlideChange={onSlideChange}
 								loop
-								className=" md:h-[255px] bg-[#1E2827]">
+								className=" md:h-[255px] bg-[#1E2827] -z-10">
 								{images.map((item, index) => (
 									<SwiperSlide
 										key={index}
-										className="flex justify-center">
+										className="flex justify-center -z-10">
 										<div className="w-[266px] h-[200px] md:w-[436px] md:h-[255px] bg-[#1E2827] flex justify-center">
 											<Image
 												src={item.image}
