@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import sales1 from "../../public/images/sales1.svg";
 import sales2 from "../../public/images/sales2.svg";
+///
 
 const Sales = () => {
 	return (
