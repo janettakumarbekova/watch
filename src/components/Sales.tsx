@@ -13,29 +13,49 @@ const Sales = () => {
 				className={`${epilogue.className} text-[#1E2827] text-[40px] font-semibold tracking-[-1px] mb-[80px]`}>
 				Sale
 			</h1>
-			<div className="flex justify-between">
-				<div className="flex gap-[20px]">
+			<div className="flex lg:justify-between flex-col lg:flex-row items-center">
+				<div className="flex gap-[20px] w-full sm:w-[532px] justify-center">
 					<div className="flex flex-col gap-[10px]">
-						<div className="w-[146px] h-[146px] bg-[#141414] flex justify-center items-center">
-							<Image src={saleImage1} alt="" />
+						<div className=" w-[80px] h-[80px] sm:w-[146px] sm:h-[146px] bg-[#141414] flex justify-center items-center">
+							<Image
+								src={saleImage1}
+								alt=""
+								className="w-[80px] h-[80px] sm:w-auto sm:h-auto"
+							/>
 						</div>
-						<div className="w-[146px] h-[146px] bg-[#141414] flex justify-center items-center">
-							<Image src={saleImage2} alt="" />
+						<div className=" w-[80px] h-[80px] sm:w-[146px] sm:h-[146px] bg-[#141414] flex justify-center items-center">
+							<Image
+								src={saleImage2}
+								alt=""
+								className="w-[80px] h-[80px] sm:w-auto sm:h-auto"
+							/>
 						</div>
-						<div className="w-[146px] h-[146px] bg-[#141414] flex justify-center items-center">
-							<Image src={saleImage3} alt="" />
+						<div className=" w-[80px] h-[80px] sm:w-[146px] sm:h-[146px] bg-[#141414] flex justify-center items-center">
+							<Image
+								src={saleImage3}
+								alt=""
+								className="w-[80px] h-[80px] sm:w-auto sm:h-auto"
+							/>
 						</div>
-						<div className="w-[146px] h-[146px] bg-[#141414] flex justify-center items-center">
-							<Image src={saleImage4} alt="" />
+						<div className=" w-[80px] h-[80px] sm:w-[146px] sm:h-[146px] bg-[#141414] flex justify-center items-center">
+							<Image
+								src={saleImage4}
+								alt=""
+								className="w-[80px] h-[80px] sm:w-auto sm:h-auto"
+							/>
 						</div>
 					</div>
-					<div className="w-[406px] h-[614px] bg-[#141414] flex justify-center items-center">
-						<Image src={saleImage1} alt="" className="w-full " />
+					<div className="w-[235px] h-[350px] sm:w-[406px] sm:h-[614px] bg-[#141414] flex justify-center items-center">
+						<Image
+							src={saleImage1}
+							alt=""
+							className="sm:w-[90%] w-[211px]"
+						/>
 					</div>
 				</div>
-				<div className="w-[369px]">
+				<div className=" w-full lg:w-[369px] lg:ml-[20px] mt-[40px] lg:mt-0">
 					<h2
-						className={`${epilogue.className} font-normal text-[#141414] text-[38px] tracking-[-1px]`}>
+						className={`${epilogue.className} font-normal text-[#141414] text-[24px] md:text-[38px] tracking-[-1px]`}>
 						Greenlane Watch By Police For MenHT{" "}
 					</h2>
 					<p
