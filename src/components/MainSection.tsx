@@ -108,7 +108,7 @@ const MainSection = () => {
 							alt=""
 							width={676}
 							height={394}
-							className="lg:w- lg:h-[379px] xl:w-[676px] xl:h-[394px]"
+							className="lg:w-[470px] lg:h-[379px] lg:mb-[-6px] xl:w-[676px] xl:h-[394px]"
 						/>
 					</div>
 				</div>
